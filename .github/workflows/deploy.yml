@@ -25,7 +25,7 @@ jobs:
           fetch-depth: 0 # Fetch all history for git info
       - name: Clone content repo
         run: |
-          git clone https://github.com/YOUR_USERNAME/garden-content.git content
+          git clone https://github.com/prisek0/garden-content.git content
       - uses: actions/setup-node@v4
         with:
           node-version: 22
